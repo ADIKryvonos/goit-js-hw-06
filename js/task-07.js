@@ -6,4 +6,4 @@ function changeTextSize(event) {
   span.style.fontSize = event.currentTarget.value + `px`;
 }
 
-input.addEventListener('change', changeTextSize);
+input.addEventListener('input', changeTextSize);
